@@ -479,7 +479,7 @@ em { font-style: normal; color: var(--coral); }
 .credit::before { content: ''; position: absolute; inset: auto -20% -40% -20%; height: 80%; background: radial-gradient(ellipse at center, rgba(123,92,255,.35), rgba(255,61,110,.18) 40%, transparent 70%); filter: blur(30px); pointer-events: none; }
 .credit > * { position: relative; }
 .creditSmall { font-family: var(--mono); font-size: .85rem; text-transform: uppercase; letter-spacing: .2em; color: var(--muted); }
-.creditName { font-family: var(--display); font-weight: 900; font-size: clamp(4rem, 17vw, 17rem); line-height: .85; letter-spacing: -.04em; }
+.creditName { font-family: var(--display); font-weight: 900; font-size: clamp(2.6rem, 11vw, 10rem); line-height: .9; letter-spacing: -.04em; text-align: left; align-self: flex-start; white-space: nowrap; }
 .creditName .char { background: linear-gradient(90deg, var(--lagoon), var(--violet) 50%, var(--coral)); background-size: 700% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; }
 .creditName .char:nth-child(1) { background-position: 0% 0; } .creditName .char:nth-child(2) { background-position: 16% 0; }
 .creditName .char:nth-child(3) { background-position: 33% 0; } .creditName .char:nth-child(4) { background-position: 50% 0; }
