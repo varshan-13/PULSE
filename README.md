@@ -2,7 +2,7 @@
 
 Run it:
   npm install
-  npm run dev        -> http://localhost:3000
+  npm run dev        -> local host
 
 Static build (for hosting anywhere): npm run build  -> out/ folder
 
